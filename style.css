@@ -1,0 +1,491 @@
+@media (1000px <= width <= 1950px ) {
+    .logo {
+      width: 8%;
+    }
+    .nav-item{
+      font-size: 24px;
+    }
+    .carousel.slide {
+      margin-top: 5%;
+    }
+    .card-img-top{
+      width: 80%;
+    }
+    #sp{
+      width: 80%;
+    }
+    #sp{
+      width: 110%;
+    }
+    #co{
+      width: 50%;
+    }
+    #bol{
+      width: 65%;
+    }
+    .card.mb-3 img{
+      width:25%;
+    }
+    .superstar{
+      width:50%;
+    }
+    .inside{
+      margin-top: 7%;
+    }
+    .introduction img{
+      width: 8%;
+    }
+    #icons{
+      width: 150px;
+    }
+    .start img{
+      width: 450px;
+    }
+    .blackback{
+      background-color: rgb(254, 213, 100);
+      color: #000000;
+      font-size: 40px;
+      border-radius: 8px;
+      padding: 0.2%;
+    }
+    .third{
+      margin-top: 6%;
+    }
+  }
+  @media (1400px <= width <= 1950px ){
+    .image-inform iframe{
+      height: 250px;
+      width: 400px;
+      margin: 0% 2%;
+    }
+    .image-inform img{
+      height: 250px;
+    }
+  }
+  @media (1100px <= width <= 1400px ){
+    .image-inform iframe{
+      height: 200px;
+      width: 400px;
+      margin: 0% 2%;
+    }
+    .image-inform img{
+      height: 200px;
+    }
+  }
+  @media (0px <= width <= 1100px ){
+    .image-inform iframe{
+      height: 150px;
+      width: 400px;
+      margin: 0% 2%;
+    }
+    .image-inform img{
+      height: 150px;
+    }
+  }
+  @media (0px <= width <= 1000px ){
+    .logo {
+      width: 13%;
+    }
+    .nav-item{
+      font-size: 22px;
+    }
+    /*.carousel.slide{
+      margin-top: 10%;
+    }*/
+    .card-img-top{
+      width: 80%;
+    }
+    .inside{
+      margin-top: 12%;
+    }
+    .image-inform{
+      flex-wrap: wrap;
+    }
+  }
+  @media (0px <= width <= 768px ){
+    #sp{
+      width: 150%;
+    }
+    .card.mb-3 img{
+      width:75%;
+    }
+    .superstar{
+      width:55%;
+    }
+    .inside{
+      margin-top: 11%;
+    }
+    .image-inform iframe{
+      height: 150px;
+      width: 300px;
+    }
+    .image-inform img{
+      height: 150px;
+    }
+    .introduction img{
+      width: 10%;
+    }
+    #icons{
+      width: 80px;
+    }
+    .start img{
+      width: 200px;
+    }
+    #co{
+      width: 50%;
+    }
+    #bol{
+      width: 65%;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* выравнивание кнопок по центру */
+    }
+    .buttons a {
+      flex: 1 1 45%; /* задаем размер кнопок, чтобы они занимали около 45% ширины родителя */
+      margin: 5px; /* небольшой отступ между кнопками */
+    }
+    .blackback{
+      font-size: 25px;
+      background-color: rgb(254, 213, 100);
+      color: #000000;
+      border-radius: 8px;
+      padding: 0.2%;
+    }
+  }
+  @media (568px <= width <= 1000px ){
+    .carousel.slide{
+      margin-top: 10%;
+    }
+    .third{
+      margin-top: 11%;
+    }
+}
+  @media (0px <= width <= 568px ){
+    .inside{
+      margin-top: 18%;
+    }
+    .navbar.bg-body-tertiary.fixed-top{
+      margin-bottom: 50%;
+    }
+    .carousel.slide{
+      margin-top: 18%;
+    }
+    .third{
+      margin-top: 20%;
+    }
+  }
+  @media (768px <= width <= 1000px ){
+    #sp{
+      width: 110%;
+    }
+
+    .card.mb-3 img{
+      width:30%;
+    }
+    .superstar{
+      width:80%;
+    }
+    .image-inform iframe{
+      height: 250px;
+      width: 400px;
+    }
+    .image-inform img{
+      height: 250px;
+    }
+    .introduction img{
+      width: 10%;
+    }
+    .introduction hr{
+      width: 20%;
+    }
+    #icons{
+      width: 110px;
+    }
+    .start img{
+      width: 320px;
+    }
+    #co{
+      width: 50%;
+    }
+    #bol{
+      width: 65%;
+    }
+    .blackback{
+      background-color: rgb(254, 213, 100);
+      color: #000000;
+      font-size: 40px;
+      border-radius: 8px;
+      padding: 0.2%;
+    }
+  }
+body{
+    background-color: rgb(125, 163, 64);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);       /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(181, 56, 42);    /* цвет бегунка */
+  border-radius: 20px;       /* округлось бегунка */
+  /*border: 2px solid rgb(255, 255, 255);   отступ вокруг бегунка */
+}
+
+.container-fluid{
+    background-color: rgb(38, 84, 136);
+    margin-bottom: -1.8%;
+    margin-top: -0.6%;
+}
+.nav-underline {
+  --bs-nav-underline-link-active-color: #fff;
+}
+.nav {
+  --bs-nav-link-color: rgb(165, 209, 93);
+  --bs-nav-link-hover-color: #fff;
+  --bs-nav-link-disabled-color: rgba(67, 210, 23, 0.75);
+}
+.card.h-100{
+  display: flex;
+  align-items: center;
+}
+.accordion-item {
+  background: 
+  linear-gradient(0.25turn, rgba(200, 234, 157, 0.919),  rgba(205, 255, 219, 0.938), rgba(137, 227, 225, 0.885));
+}
+.accordion{
+  padding: 1% 2%;
+}
+.card.mb-3 img{
+  border-radius: 10px;
+  margin-top: 1.5%;
+}
+.card.mb-3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.accordion-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.offcanvas-header{
+  background-color: rgb(165, 209, 93);
+}
+.offcanvas-body{
+  background: 
+  linear-gradient(0.25turn, rgba(215, 254, 226, 0.938), rgba(137, 227, 225, 0.885));
+}
+.navbar-toggler {
+  color: rgba(26, 221, 85, 0.982);
+  background-color:rgb(255, 255, 255);
+}
+.btn.btn-primary{
+  background-color:rgb(14, 113, 176);
+}
+footer{
+  text-align: center;
+  font-size: small;
+  color: #fff;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1.5%;
+}
+hr{
+  border: none;
+  background-color: rgb(255, 255, 255);
+  height: 2px;
+  margin:0.4%;
+}
+.inform{
+  background-color: #fff;
+  display:flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.introduction{
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.introduction hr{
+  background-color: black;
+  height: 2px;
+}
+.image-inform{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image-inform img{
+  border-radius: 2%;
+  margin-top: 2%;
+  margin-right: 1%;
+}
+.image-inform iframe{
+  border-radius: 2%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.introduction img{
+  margin-right: 1%;
+}
+.text-inform{
+  font-size: 18px;
+}
+.red{
+  font-size: 45px;
+  color: rgb(164, 43, 43);
+}
+.yellow{
+  font-size: 45px;
+  color: rgb(255, 196, 0);
+}
+.redtext{
+  font-size: 19px;
+  font-weight: bolder;
+  color: rgb(164, 43, 43);
+}
+.greentext{
+  font-size: 19px;
+  font-weight: bolder;
+  color: rgb(32, 156, 15);
+}
+.bluetext{
+  font-size: 19px;
+  font-weight: bolder;
+  color: rgb(14, 113, 176);
+}
+.greenback{
+  background-color: rgb(51, 136, 36);
+  color: #fff;
+  font-size: 19px;
+}
+.blueback{
+  background-color: rgb(14, 19, 148);
+  color: #fff;
+  font-size: 19px;
+}
+.purpleback{
+  background-color: rgb(123, 7, 114);
+  color: #fff;
+  font-size: 19px;
+}
+.redback{
+  background-color: rgb(156, 14, 14);
+  color: #fff;
+  font-size: 19px;
+}
+.yellowback{
+  background-color: rgb(255, 206, 8);
+  font-size: 19px;
+}
+.letters{
+  font-size: 18px;
+}
+.coolborder{
+  margin-left: 1%;
+  margin-right: 2%;
+  align-items: center;
+}
+/*.coolborder{
+  margin-left: 2%;
+  border: 5px #000;
+  border-radius: 15px;
+  border-style: ridge;
+  font-size: 48px;
+  padding: 1%;
+}*/
+.rarity{
+  background-color: #fff;
+  padding: 1% 2%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rarity img{
+  margin-left: 2%;
+  width: 30%;
+  border-radius: 2%;
+}
+.rarity p{
+  font-size: 18px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+}
+.buttons a{
+  margin: 0% 1.5%;
+  width:20%;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: 1px, rgb(0, 0, 0);
+}
+.btn.btn-secondary{
+  background-color: blueviolet;
+}
+.accordion-button:focus, .accordion-button:active, .accordion-button:hover{
+    background-color: white; /* Убирает синий фон при фокусе */
+}
+.start{
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  align-items: center;
+}
+.start img{
+  border-radius: 2%;
+}
+.start p{
+  margin: 0% 1%;
+}
+.under{
+  background-color: rgb(84, 84, 84);
+  height: 2px;
+}
+.accordion{
+  margin-bottom: -2%;
+}
+#ma{
+  width: 33%;
+}
+#mo{
+  width: 70%;
+}
+#braw{
+  width: 20%;
+}
+#rarea:hover {
+  background-color: rgb(181, 252, 197) !important;
+}
+#superrarea:hover {
+  background-color: rgb(189, 231, 251) !important;
+}
+#epica:hover {
+  background-color: rgb(226, 173, 247) !important;
+}
+#mythica:hover {
+  background-color: rgb(248, 192, 188) !important;
+}
+#legendarya:hover {
+  background-color: rgb(255, 255, 169) !important;
+}
+.dropdown-item.active{
+  background-color: rgb(165, 209, 93) !important;
+  color: black !important;
+}

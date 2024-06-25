@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/png" href="media/coveri.jpg">
+		<title>Brawl Stars</title>
+	</head>
+	  <body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+		<!--1 Navbar Offcanvas -->
+		<nav class="navbar bg-body-tertiary fixed-top">
+			<div class="container-fluid">
+	
+	<!--2 Navs Tabs Underline -->
+				<ul class="nav nav-underline">
+					<li class="nav-item">
+					  <a class="nav-link" aria-current="page" href="index.html">Головна</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="characters.html">Персонажі</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link active" href="cards.html">Режими</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="additionally.html">Додатково</a>
+					  </li>
+				  </ul>
+				  <img src="media/logo.png" alt="logo" class="logo">
+	<!--off2-->
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+				  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Меню</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<li class="nav-item">
+					  <a class="nav-link" aria-current="page" href="index.html">Головна</a>
+					</li>
+
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="characters.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Персонажі
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="characters.html" id="rarea">Рідкісні</a></li>
+						<li><a class="dropdown-item" href="superrare.html" id="superrarea">Надрідкісні</a></li>
+						<li><a class="dropdown-item" href="epic.html" id="epica">Епічні</a></li>
+						<li><a class="dropdown-item" href="mythic.html" id="mythica">Міфічні</a></li>
+						<li><a class="dropdown-item" href="legendary.html" id="legendarya">Легендарні</a></li>
+					  </ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="cards.html">Режими</a>
+					  </li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="additionally.html">Додатково</a>
+					</li>
+				
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="characters.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Завантажити гру
+						</a>
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=ru">Android</a></li>
+						  <li><a class="dropdown-item" href="https://apps.apple.com/ua/app/brawl-stars/id1229016807?l=ru">Apple</a></li>
+						</ul>
+					  </li>
+					
+				  </ul>
+				  <form class="d-flex mt-3" role="search">
+					<input class="form-control me-2" type="search" placeholder="Напишіть ім'я персонажа:)" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Пошук</button>
+				  </form>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+	<!--off1-->
+	
+
+
+
+<!--4 Accordion  -->
+<div class="third">
+<div class="accordion" id="accordionExample">
+	<div class="accordion-item">
+	  <h2 class="accordion-header">
+		<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		Зіткнення
+		</button>
+	  </h2>
+	  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			<div class="start" alt="example of rare characters">
+			<img src="media/modes/showdownlogo.png" alt="icon of showdown" id="icons"><p><strong>
+			<span class="greenback">Зіткнення (Showdown)</span> 
+			– місцева королівська битва з можливістю грати як у соло, так і у дуо. Перемагає або 1 із 10 гравців, або 1 із 5 команд. По карті розкидані коробки з посиленням, що дозволяє персонажу прокачуватись. У цей же час до центру стискується отруйна хмара, що завдає шкоди гравцям.		
+		</p>	
+			<img src="media/modes/showdowngif.gif">
+			</div></div>
+
+<!--off5-->
+	  </div>
+	</div>
+
+
+	<div class="accordion-item">
+	  <h2 class="accordion-header">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			Захоплення кристалів
+		</button>
+	  </h2>
+	  <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			<div class="start" alt="example of rare characters">
+				<img src="media/modes/gemgrublogo.png" alt="icon of gem gub" id="icons"><p><strong>
+				<span class="purpleback">Захоплення кристалів (Gem Grab)</span> 
+				– формат «3 на 3» із збиранням кристалів. Вони з'являються з шахти кожні 7 секунд, а якщо когось вбивають, його кристали випадають і підбираються ворогом або союзником. Головне завдання - зібрати 10 кристалів, щоб розпочався відлік до кінця гри.
+			</p>	
+				<img src="media/modes/gemgrubgif.gif">
+				</div></div>
+			</div>
+		</div>
+
+		<div class="accordion-item">
+			<h2 class="accordion-header">
+			  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				Броубол
+			  </button>
+			</h2>
+			<div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+			  <div class="accordion-body">
+				  <div class="start" alt="example of rare characters">
+					  <img src="media/modes/brawlballlogo.png" alt="icon of brawlball" id="icons"><p><strong>
+					  <span class="blueback">Броубол (Brawlball)</span> 
+					  – формат «3 на 3» із необхідністю забити 2 голи у ворота ворога. Якщо до кінця матчу цієї умови не досягається, то перемагає команда з найбільшою кількістю забитих м'ячів. За рівного рахунку гравцям дають додаткову хвилину, а перешкоди руйнуються. Якщо за цей час геймери не справляються, то зараховується нічия.
+				  </p>	
+					  <img src="media/modes/brawballgif.gif">
+					  </div></div>
+				  </div>
+			  </div>
+
+
+			  <div class="accordion-item">
+				<h2 class="accordion-header">
+				  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+					Гаряча зона
+				  </button>
+				</h2>
+				<div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+				  <div class="accordion-body">
+					  <div class="start" alt="example of rare characters">
+						  <img src="media/modes/hotzonelogo.png" alt="icon of brawlball" id="icons"><p><strong>
+						  <span class="redback">Гаряча зона (Hot Zone)</span> 
+						  – формат «3 на 3», де дві команди мають заповнювати індикатор. Якщо одна з команд заповнить індикатор, ця команда перемагає. Відсотки заробляються, якщо учасник стоїть у зоні. Якщо зона заповнена (на індикаторі на зоні зображені зірки), потрібно йти заповнювати наступну, адже 100% без цього не вийде.
+					  </p>	
+						  <img src="media/modes/hotzonegif.gif">
+						  </div></div>
+					  </div>
+				  </div>		
+
+
+				  <div class="accordion-item">
+					<h2 class="accordion-header">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+						Пограбування
+					  </button>
+					</h2>
+					<div id="collapseSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+					  <div class="accordion-body">
+						  <div class="start" alt="example of rare characters">
+							  <img src="media/modes/robberylogo.png" alt="icon of heist" id="icons"><p><strong>
+							  <span class="purpleback">Пограбування (Heist)</span> 
+							  – дві команди, кожна з яких складається із трьох гравців. На обох сторонах карти є сейф із 45 000 очками здоров'я. Ціль полягає в тому, щоб захистити свій сейф, намагаючись знищити сейф протилежної команди. Якщо один із сейфів було знищено, перемога автоматично присуджується команді, яка знищила його. Якщо жоден сейф не буде знищений до закінчення таймера, він покладатиметься на здоров'я сейфа.
+						  </p>	
+							  <img src="media/modes/heistgif.gif">
+							  </div></div>
+						  </div>
+					  </div>
+				  
+				  
+				  <div class="accordion-item">
+					<h2 class="accordion-header">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+						Нокаут
+					  </button>
+					</h2>
+					<div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+					  <div class="accordion-body">
+						  <div class="start" alt="example of rare characters">
+							  <img src="media/modes/knockoutlogo.png" alt="icon of brawlball" id="icons"><p><strong>
+							  <span class="redback">Нокаут (Knockout)</span> 
+							  – формат «3 на 3», що складається з декількох раундів. Якщо гравець помре, він не зможе відродитися до кінця раунду. Таким чином, потрібно вбити всю ворожу команду для швидкого кінця раунду. Мета - перемогти 2 раунди.
+						  </p>	
+							  <img src="media/modes/knockoutgif.gif">
+							  </div></div>
+						  </div>
+					  </div>
+
+
+<!--off4-->
+	<footer>
+		© 2024 SADOVA Inc. Усі права захищено.
+		<hr>
+		<p class="end">This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. 
+		</p>
+	</footer>
+</div>
+
+</body>
+</html>
